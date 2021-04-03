@@ -1,0 +1,7 @@
+.card {
+  max-width: 984px;
+  margin: 0 auto 80px;
+  display: grid;
+  grid-template-columns: 460px auto;
+  gap: 48px 40px;
+}
