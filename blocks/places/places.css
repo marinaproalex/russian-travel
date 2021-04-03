@@ -1,9 +1,4 @@
 .places {
-margin: 0 148px;
-max-width: calc(100% - 148px*2);
-}
-
-.places {
   margin: 0 148px;
   max-width: calc(100% - 148px*2);
   width: 100%;
