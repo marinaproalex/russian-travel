@@ -7,3 +7,9 @@
   line-height: 1.22;
   z-index: 1;
 }
+
+@media screen and (max-width: 424px) {
+  .cover__subtitle {
+    font-size: 14px;
+  }
+}

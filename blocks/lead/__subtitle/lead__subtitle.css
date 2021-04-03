@@ -8,5 +8,11 @@
   font-weight: 400;
   font-style: normal;
   text-align: center;
-  border: black 1px solid;
+}
+
+@media screen and (max-width: 767px) {
+  .lead__title {
+    max-width: 288px;
+    font-size: 40px;
+  }
 }

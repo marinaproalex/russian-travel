@@ -9,3 +9,15 @@
 .card__text:last-child {
   margin: 0;
 }
+
+@media screen and (max-width: 1023px) {
+  .card__text{
+    margin: 0 24px 25px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card__text {
+    margin: 0 16px 25px;
+  }
+}

@@ -8,3 +8,15 @@
   align-self: flex-start;
   margin: 8px 0 92px;
 }
+
+@media screen and (max-width: 1023px) {
+  .lead__caption {
+    margin: 8px auto 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__caption {
+    margin: 8px auto 64px;
+  }
+}
