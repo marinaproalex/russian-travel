@@ -12,3 +12,5 @@
 * Flex
 * Grid Layout
 * Адаптивная верстка
+
+[Ссылка на проект](https://marinaproalex.github.io/russian-travel/)
