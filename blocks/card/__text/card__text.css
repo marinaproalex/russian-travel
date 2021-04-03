@@ -1,23 +1,26 @@
 .card__text {
-  margin: 0 0 26px 0;
+  margin: 26px 0 0 0;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 1.63;
 }
 
-.card__text:last-child {
+.card__text:first-child {
   margin: 0;
 }
 
 @media screen and (max-width: 1023px) {
   .card__text{
-    margin: 0 24px 25px 0;
+    margin: 25px 24px 0 0;
   }
 }
 
 @media screen and (max-width: 767px) {
   .card__text {
-    margin: 0 16px 25px;
+    margin: 25px 16px 0;
+  }
+  .card__text:first-child {
+    margin: 25px 16px 0;
   }
 }
