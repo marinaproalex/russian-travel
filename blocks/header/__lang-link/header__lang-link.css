@@ -1,17 +1,40 @@
 .header__lang-link {
   max-width: 30px;
-  margin: 0 18px 0 0;
-  padding: 0;
+  width: 100%;
   font-weight: normal;
   font-size: 24px;
   line-height: 28px;
-  text-align: right;
   color: #fff;
-  text-decoration: underline;
-}
-
-.header__lang-link:last-child {
-  margin: 0;
   text-decoration: none;
 }
 
+.header__lang-link:first-child {
+  margin-right: 18px;
+}
+
+
+@media screen and (max-width: 767px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 1.11;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .header__lang-link {
+    margin: 15px 0 0 0;
+  }
+}
+
+ @media screen and (max-width: 767px) {
+    .header__lang-link {
+      font-size: 18px;
+      line-height: 1.11;
+    }
+  }
+
+  @media screen and (max-width: 424px) {
+    .header__lang-link {
+      margin: 15px 0 0 0;
+    }
+  }
